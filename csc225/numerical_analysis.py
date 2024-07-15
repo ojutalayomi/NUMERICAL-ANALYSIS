@@ -213,4 +213,4 @@ if __name__ == "__main__":
     while stop == 'no':
         start()
         print("Would you like to end the program? Or start again?")
-        stop = int(input("Enter yes to stop, no to continue")).lower()
+        stop = int(input("Enter yes to stop, no to continue: ")).lower()
